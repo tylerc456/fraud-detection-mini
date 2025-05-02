@@ -16,7 +16,7 @@ MERCHANT_CATEGORIES = [
     "Automotive",
 ]
 
-def generate_merchants(n_merchants=500):
+def generate_merchants(n_merchants=30):
     merchants = []
     for _ in range(n_merchants):
         merchant_id = str(uuid.uuid4())

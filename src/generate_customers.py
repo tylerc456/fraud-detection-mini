@@ -2,7 +2,7 @@ import faker
 
 fake = faker.Faker()
 
-def generate_customers(n_customers=1000):
+def generate_customers(n_customers=100):
     customers = []
     for _ in range(n_customers):
         customer = {
